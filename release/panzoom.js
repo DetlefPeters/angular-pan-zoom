@@ -437,7 +437,7 @@ function ($document, PanZoomService) {
                             };
                         };
 
-                        syncModelToDOM();
+                        // syncModelToDOM();
 
                         var tick = new AnimationTick();
                         if (animationFrame) {
