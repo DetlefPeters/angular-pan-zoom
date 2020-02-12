@@ -427,7 +427,7 @@ function ($document, PanZoomService) {
                                     }
                                 }
 
-                                syncModelToDOM();
+                                // syncModelToDOM();
 
                                 if (animationFrame && !scopeIsDestroyed) {
                                     animationFrame(tick); //If we're using requestAnimationFrame reschedule 
